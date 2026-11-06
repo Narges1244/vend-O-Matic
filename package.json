@@ -1,0 +1,21 @@
+{
+  "name": "vend-o-matic",
+  "version": "1.0.0",
+  "description": "HTTP service for a beverage vending machine",
+  "type":"module",
+  "main": "scr/server.js",
+  "scripts": {
+    "start":"node src/server.js",
+    "test": "node --test"
+  },
+  "engines":{
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narges1244/vend-O-Matic.git"
+  },
+  "author": "Narges Salari",
+  "license": "ISC"
+  
+}
