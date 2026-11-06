@@ -25,7 +25,7 @@ export class VendingMachine {
         this.#coins += 1;
         return this.#coins;
     }
-    refound() {
+    refund() {
         const returned = this.#coins;
         this.#coins = 0;
         return returned;
